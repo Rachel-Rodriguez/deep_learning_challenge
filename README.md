@@ -9,11 +9,11 @@ The purpose of this analysis is to develop a machine learning model that predict
 
 # Results
     Data Preprocessing
-  Target variable for this model: 
+  *  Target variable for this model: 
   
-  -IS_SUCESSFUL 
+ -IS_SUCESSFUL 
 
-  Feature variables for this model were:
+  *  Feature variables for this model were:
   
   -APPLICATION_TYPE
   
@@ -33,7 +33,7 @@ The purpose of this analysis is to develop a machine learning model that predict
   
   -ASK_AMT
 
-  Variable that were removed: 
+  *  Variable that were removed: 
  
   -EIN
  
@@ -41,6 +41,10 @@ The purpose of this analysis is to develop a machine learning model that predict
   
 
     Compiling, Training, and Evaluating the Model
+    
+  * MODEL 1
+    The first Model, had to layers
+  
     
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
