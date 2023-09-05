@@ -42,12 +42,12 @@ The purpose of this analysis is to develop a machine learning model that predict
 
     Compiling, Training, and Evaluating the Model
     
-  * MODEL 1
-    The first Model, had to layers
-  
+  * MODEL 1:
+    The initial model consisted of two layers: the first layer with 80 neurons and the second layer with 30 neurons. I employed a combination of activation functions, starting with ReLU for the hidden layers and sigmoid for the output layer. The model was trained for 100 epochs.
+* MODEL 2:
+      The second model featured three hidden layers: the first with 120 neurons, the second with 80 neurons, and the last with 30 neurons. I applied a combination of activation functions, starting with ReLU, followed by Tanh, and then ReLU again. The output layer utilized the sigmoid activation function, and the model was trained for 100 epochs.
+* MODEL 3:
+    The final model incorporated four hidden layers, with the following configurations: the first layer with 300 neurons, the second with 100 neurons, the third with 50 neurons, and the fourth with 30 neurons. I implemented a combination of activation functions, commencing with ReLU, followed by Tanh, and concluded with ReLU for the last two layers. The output layer utilized the sigmoid activation function, and the model underwent training for 100 epochs.
     
-
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+# Summary
+All three models fell short of achieving a 75% accuracy threshold. In the first model, despite a loss of 55%, I achieved an accuracy of 72.5%. For the second model, I introduced additional hidden layers in an attempt to boost accuracy; however, it resulted in a loss of 56.7% and an accuracy of 72.7%. The last model, in which I added more hidden layers and significantly increased the number of neurons, failed to deliver the desired accuracy improvement, resulting in a loss of 56% and an accuracy of 72.8%
